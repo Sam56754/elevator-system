@@ -11,9 +11,6 @@ package project;
 import javax.swing.Timer;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import static java.lang.Thread.sleep;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.*;
 import java.awt.*;
 
@@ -62,6 +59,7 @@ public class display extends javax.swing.JFrame {
         jButton20 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("elevator system");
 
         jScrollPane1.setViewportView(jTextPane1);
 
